@@ -3,19 +3,16 @@ minSdk = "21"
 compileSdk = "34"
 targetSdk = "34"
 kotlin = "1.9.10"
-gradlePlugin = "8.9.2"
-survicateSdk = "6.4.0"
-fullstory = "1.63.1"
-appcompat = "1.6.1"
-coreKtx = "1.12.0"
-material = "1.11.0"
+gradlePlugin = "8.13.2"
+survicateSdk = "7.0.0"
+fullstory = "1.66.0"
+appcompat = "1.7.1"
+coreKtx = "1.13.1"
+material = "1.13.0"
 dokkaPlugin = "1.9.10"
-junit5Plugin = "1.10.0.0"
-junitBom = "5.10.0"
+junit5Plugin = "1.12.2.0"
+junitBom = "5.12.2"
 mockk = "1.13.9"
-junit = "4.13.2"
-junitVersion = "1.2.1"
-espressoCore = "3.6.1"
 activity = "1.10.1"
 
 [plugins]
@@ -39,6 +36,3 @@ junit-bom = { module = "org.junit:junit-bom", version.ref = "junitBom" }
 junit-jupiter-api = { module = "org.junit.jupiter:junit-jupiter-api" }
 junit-jupiter-engine = { module = "org.junit.jupiter:junit-jupiter-engine" }
 mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
-junit = { group = "junit", name = "junit", version.ref = "junit" }
-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
