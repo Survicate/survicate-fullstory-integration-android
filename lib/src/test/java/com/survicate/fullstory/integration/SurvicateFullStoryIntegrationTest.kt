@@ -1,6 +1,5 @@
-import com.survicate.fullstory.integration.SurvicateFullStoryIntegration
-import com.survicate.fullstory.integration.toFullStoryEventProperties
-import com.survicate.fullstory.integration.toFullStoryUserVars
+package com.survicate.fullstory.integration
+
 import com.survicate.surveys.QuestionAnsweredEvent
 import com.survicate.surveys.SurvicateAnswer
 import com.survicate.surveys.surveys.CtaSurveyAnswerType
