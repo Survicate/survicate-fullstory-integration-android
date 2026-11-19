@@ -7,7 +7,7 @@ plugins {
     `maven-publish`
 }
 
-ext.set("lib_version", "1.9.1")
+ext.set("lib_version", "1.10.0")
 
 android {
     namespace = "com.survicate.fullstory.integration"
